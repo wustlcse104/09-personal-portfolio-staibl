@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Personal Portfolio</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css" type="text/css">
+    </head>
+  <body>
+    <h1> Sophie Taibl </h1>
+        <a>Mission Statement</a>
+          <div>Experienced Writer with a demonstrated history of working in the online media industry. Skilled in Microsoft Word, Instagram, Adobe Creative Suite, InDesign, and Editing. Strong media and communication professional with a Bachelor of Arts - BA focused in Psychology and Writing, Minor Design from Washington University in St. Louis.</div>
+          <hr>
+          <h2>Experience</h2>
+          <p> Through web development, I have learned crucial web design principles that have supplemented my design education. Furthermore, I have learned basic HTML and CSS formatting skills, which will allow me to easily design future blogs in my career. When starting a project, I normally begin with the basic HTML elements and then from there move onto the simple CSS parts, such as color and text formatting. From there, I move onto the more complex aspects such as hover elements and dropdown menus.</p>
+      <span class="list">
+          <h3>Portfolio</h3>
+            <ul>
+              <li><a><p>City Guide</p></a> <a href="https://wustlcse104.github.io/04-city-guide-staibl/"></a>
+                <figure>
+                  <img src="CityGuide.jpg" alt="City Guide Assignment Website Screen Shot" id="CityGuide"/>
+                </figure>
+                <figcaption>In this assignment we made a travel guide for our favorite city. We listed various stores and restaurants with their menus and prices. Additionally, we added a submit form to have the viewer subscribe to our email list.</figcaption>
+              </li>
+              <li><a><p>Twitter Clone</p><a> <a href"https://wustlcse104.github.io/07-twitter-clone-staibl/"></a>
+                <figure>
+                  <img src="TwitterClone.jpg" alt="Twitter Clone Assignment Website Screen Shot" id="Twitter"/>
+                </figure>
+                <figcaption>In this assignment, we made a visual copy of a Twitter page. Using websites such as Bootstrap and Font Awesome, we mimiced the icons and fonts used on Twitter as closely as possible. Lastly, we made sure to use identical color schemes and font sizes.</figcaption>
+              </li>
+              <li><a><p>Wustl Redesign</p></a> <a href="https://wustlcse104.github.io/08-wustl-redesign-staibl/"></a>
+                <figure>
+                  <img src="WustlRedesign.jpg" alt="Wustl Redesign Assignment Website Screen Shot" id="WustlRedesign"/>
+                </figure>
+                <figcaption> In this assignment, we redesigned an existing website for a Department or School/College within WashU. It was required to have a navigation bar, along with high quality photos.</figcaption>
+              </li>
+              </ul>
+            </div>
+<fieldset>
+<legend><b>Request a project</b></legend>
+    <ul>
+      <li>Contact Form: <input type= "checkbox" id="myCheck">
+          <script>
+            function check () {
+              document.getElementById("myCheck").checked = true;
+              document.getElementById('myCheck').value = "25";
+                }
+
+              function uncheck () {
+              document.getElementById("myCheck").checked = false;
+              document.getElementById('myCheck').value = "0";
+              }
+
+            </script>
+          </li>
+      <li>eCommerce: <input type= "checkbox" id="myCheck">
+        <script>
+          function check () {
+            document.getElementById("myCheck").checked = true;
+            document.getElementById('myCheck').value = "35";
+              }
+
+        function uncheck () {
+          document.getElementById("myCheck").checked = false;
+          document.getElementById('myCheck').value = "0";
+            }
+        </script>
+      </li>
+      <li>Live Chat: <input type= "checkbox" id="myCheck">
+        <script>
+          function check () {
+            document.getElementById("myCheck").checked = true;
+            document.getElementById('myCheck').value = "15";
+              }
+
+            function uncheck () {
+              document.getElementById("myCheck").checked = false;
+              document.getElementById('myCheck').value = "0";
+                }
+            </script>
+          </li>
+      <li>Image Gallery: <input type= "checkbox" id="myCheck">
+        <script>
+          function check () {
+            document.getElementById("myCheck").checked = true;
+            document.getElementById('myCheck').value = "25";
+            }
+
+            function uncheck () {
+              document.getElementById("myCheck").checked = false;
+              document.getElementById('myCheck').value = "0";
+                }
+            </script>
+          </li>
+    </ul>
+<input type="number" id="myNumber" value="0">
+    <button id="myCheck">Calculate</button>
+
+      <script>
+        function myFunction() {
+          document.getElementById("myNumber").addEventListener("click", displayAmount);
+
+          function displayAmount() {
+            document.getElementById("amount").innerHTML= Calculate();
+          }
+      }
+      </script>
+<fieldset>
+  <legend><b>Contact</b></legend>
+    <ul>
+      <li><label> Name: <input type= "text" name="name"/></label></li>
+      <li><label> Email: <input type= "text" name="email"/></label></li>
+      <li><label>Project Description: <input type= "text" name="Project Description"/></label></li>
+    </ul>
+  <input type="submit"/>
+</fieldset>
+
+</body>
+</html>
