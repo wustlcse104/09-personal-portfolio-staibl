@@ -34,8 +34,9 @@ h3 {
 
 
 a {
+  position: relative;
   padding-top: 30px;
-  padding-left: 550px;
+  padding-left: 600px;
   font-family: helvetica;
   font-size: 20px;
   color: #696969;
